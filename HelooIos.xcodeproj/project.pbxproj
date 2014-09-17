@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4489542F19C93E170073EC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489542E19C93E170073EC25 /* Foundation.framework */; };
+		4489543119C93E170073EC25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489543019C93E170073EC25 /* CoreGraphics.framework */; };
+		4489543319C93E170073EC25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489543219C93E170073EC25 /* UIKit.framework */; };
+		4489543919C93E170073EC25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4489543719C93E170073EC25 /* InfoPlist.strings */; };
+		4489543B19C93E170073EC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489543A19C93E170073EC25 /* main.m */; };
+		4489543F19C93E170073EC25 /* fAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489543E19C93E170073EC25 /* fAppDelegate.m */; };
+		4489544219C93E170073EC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4489544019C93E170073EC25 /* Main.storyboard */; };
+		4489544519C93E170073EC25 /* fViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489544419C93E170073EC25 /* fViewController.m */; };
+		4489544719C93E170073EC25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4489544619C93E170073EC25 /* Images.xcassets */; };
+		4489544E19C93E170073EC25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489544D19C93E170073EC25 /* XCTest.framework */; };
+		4489544F19C93E170073EC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489542E19C93E170073EC25 /* Foundation.framework */; };
+		4489545019C93E170073EC25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489543219C93E170073EC25 /* UIKit.framework */; };
+		4489545819C93E180073EC25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4489545619C93E180073EC25 /* InfoPlist.strings */; };
+		4489545A19C93E180073EC25 /* HelooIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489545919C93E180073EC25 /* HelooIosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4489545119C93E170073EC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4489542319C93E170073EC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4489542A19C93E170073EC25;
+			remoteInfo = HelooIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4489542B19C93E170073EC25 /* HelooIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelooIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4489542E19C93E170073EC25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4489543019C93E170073EC25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4489543219C93E170073EC25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4489543619C93E170073EC25 /* HelooIos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelooIos-Info.plist"; sourceTree = "<group>"; };
+		4489543819C93E170073EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4489543A19C93E170073EC25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4489543C19C93E170073EC25 /* HelooIos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelooIos-Prefix.pch"; sourceTree = "<group>"; };
+		4489543D19C93E170073EC25 /* fAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fAppDelegate.h; sourceTree = "<group>"; };
+		4489543E19C93E170073EC25 /* fAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fAppDelegate.m; sourceTree = "<group>"; };
+		4489544119C93E170073EC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4489544319C93E170073EC25 /* fViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fViewController.h; sourceTree = "<group>"; };
+		4489544419C93E170073EC25 /* fViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fViewController.m; sourceTree = "<group>"; };
+		4489544619C93E170073EC25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4489544C19C93E170073EC25 /* HelooIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelooIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4489544D19C93E170073EC25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4489545519C93E180073EC25 /* HelooIosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelooIosTests-Info.plist"; sourceTree = "<group>"; };
+		4489545719C93E180073EC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4489545919C93E180073EC25 /* HelooIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelooIosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4489542819C93E170073EC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489543119C93E170073EC25 /* CoreGraphics.framework in Frameworks */,
+				4489543319C93E170073EC25 /* UIKit.framework in Frameworks */,
+				4489542F19C93E170073EC25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4489544919C93E170073EC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489544E19C93E170073EC25 /* XCTest.framework in Frameworks */,
+				4489545019C93E170073EC25 /* UIKit.framework in Frameworks */,
+				4489544F19C93E170073EC25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4489542219C93E170073EC25 = {
+			isa = PBXGroup;
+			children = (
+				4489543419C93E170073EC25 /* HelooIos */,
+				4489545319C93E170073EC25 /* HelooIosTests */,
+				4489542D19C93E170073EC25 /* Frameworks */,
+				4489542C19C93E170073EC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4489542C19C93E170073EC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4489542B19C93E170073EC25 /* HelooIos.app */,
+				4489544C19C93E170073EC25 /* HelooIosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4489542D19C93E170073EC25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4489542E19C93E170073EC25 /* Foundation.framework */,
+				4489543019C93E170073EC25 /* CoreGraphics.framework */,
+				4489543219C93E170073EC25 /* UIKit.framework */,
+				4489544D19C93E170073EC25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4489543419C93E170073EC25 /* HelooIos */ = {
+			isa = PBXGroup;
+			children = (
+				4489543D19C93E170073EC25 /* fAppDelegate.h */,
+				4489543E19C93E170073EC25 /* fAppDelegate.m */,
+				4489544019C93E170073EC25 /* Main.storyboard */,
+				4489544319C93E170073EC25 /* fViewController.h */,
+				4489544419C93E170073EC25 /* fViewController.m */,
+				4489544619C93E170073EC25 /* Images.xcassets */,
+				4489543519C93E170073EC25 /* Supporting Files */,
+			);
+			path = HelooIos;
+			sourceTree = "<group>";
+		};
+		4489543519C93E170073EC25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4489543619C93E170073EC25 /* HelooIos-Info.plist */,
+				4489543719C93E170073EC25 /* InfoPlist.strings */,
+				4489543A19C93E170073EC25 /* main.m */,
+				4489543C19C93E170073EC25 /* HelooIos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4489545319C93E170073EC25 /* HelooIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				4489545919C93E180073EC25 /* HelooIosTests.m */,
+				4489545419C93E180073EC25 /* Supporting Files */,
+			);
+			path = HelooIosTests;
+			sourceTree = "<group>";
+		};
+		4489545419C93E180073EC25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4489545519C93E180073EC25 /* HelooIosTests-Info.plist */,
+				4489545619C93E180073EC25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4489542A19C93E170073EC25 /* HelooIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489545D19C93E180073EC25 /* Build configuration list for PBXNativeTarget "HelooIos" */;
+			buildPhases = (
+				4489542719C93E170073EC25 /* Sources */,
+				4489542819C93E170073EC25 /* Frameworks */,
+				4489542919C93E170073EC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelooIos;
+			productName = HelooIos;
+			productReference = 4489542B19C93E170073EC25 /* HelooIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4489544B19C93E170073EC25 /* HelooIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489546019C93E180073EC25 /* Build configuration list for PBXNativeTarget "HelooIosTests" */;
+			buildPhases = (
+				4489544819C93E170073EC25 /* Sources */,
+				4489544919C93E170073EC25 /* Frameworks */,
+				4489544A19C93E170073EC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4489545219C93E170073EC25 /* PBXTargetDependency */,
+			);
+			name = HelooIosTests;
+			productName = HelooIosTests;
+			productReference = 4489544C19C93E170073EC25 /* HelooIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4489542319C93E170073EC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = f;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = witmob;
+				TargetAttributes = {
+					4489544B19C93E170073EC25 = {
+						TestTargetID = 4489542A19C93E170073EC25;
+					};
+				};
+			};
+			buildConfigurationList = 4489542619C93E170073EC25 /* Build configuration list for PBXProject "HelooIos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4489542219C93E170073EC25;
+			productRefGroup = 4489542C19C93E170073EC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4489542A19C93E170073EC25 /* HelooIos */,
+				4489544B19C93E170073EC25 /* HelooIosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4489542919C93E170073EC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489544719C93E170073EC25 /* Images.xcassets in Resources */,
+				4489543919C93E170073EC25 /* InfoPlist.strings in Resources */,
+				4489544219C93E170073EC25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4489544A19C93E170073EC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489545819C93E180073EC25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4489542719C93E170073EC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489543B19C93E170073EC25 /* main.m in Sources */,
+				4489543F19C93E170073EC25 /* fAppDelegate.m in Sources */,
+				4489544519C93E170073EC25 /* fViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4489544819C93E170073EC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489545A19C93E180073EC25 /* HelooIosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4489545219C93E170073EC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4489542A19C93E170073EC25 /* HelooIos */;
+			targetProxy = 4489545119C93E170073EC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4489543719C93E170073EC25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4489543819C93E170073EC25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4489544019C93E170073EC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4489544119C93E170073EC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4489545619C93E180073EC25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4489545719C93E180073EC25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4489545B19C93E180073EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4489545C19C93E180073EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4489545E19C93E180073EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelooIos/HelooIos-Prefix.pch";
+				INFOPLIST_FILE = "HelooIos/HelooIos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4489545F19C93E180073EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelooIos/HelooIos-Prefix.pch";
+				INFOPLIST_FILE = "HelooIos/HelooIos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4489546119C93E180073EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelooIos.app/HelooIos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelooIos/HelooIos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelooIosTests/HelooIosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4489546219C93E180073EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelooIos.app/HelooIos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelooIos/HelooIos-Prefix.pch";
+				INFOPLIST_FILE = "HelooIosTests/HelooIosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4489542619C93E170073EC25 /* Build configuration list for PBXProject "HelooIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489545B19C93E180073EC25 /* Debug */,
+				4489545C19C93E180073EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4489545D19C93E180073EC25 /* Build configuration list for PBXNativeTarget "HelooIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489545E19C93E180073EC25 /* Debug */,
+				4489545F19C93E180073EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4489546019C93E180073EC25 /* Build configuration list for PBXNativeTarget "HelooIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489546119C93E180073EC25 /* Debug */,
+				4489546219C93E180073EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4489542319C93E170073EC25 /* Project object */;
+}
